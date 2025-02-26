@@ -1,0 +1,30 @@
+{"level":"info","message":"Find the server at: http://localhost:8080}/","service":"roman-numeral-convertor","timestamp":"2025-02-26 11:23:20"}
+{"level":"info","message":"Server is listening at: http://localhost:8080}/","service":"roman-numeral-convertor","timestamp":"2025-02-26 12:37:02"}
+{"0":"1","level":"info","message":"Request received: ","service":"roman-numeral-convertor","timestamp":"2025-02-26 12:37:04"}
+{"level":"info","message":"Server is listening at: http://localhost:8080}/","service":"roman-numeral-convertor","timestamp":"2025-02-26 12:39:55"}
+{"0":"1","level":"info","message":"Request received: ","service":"roman-numeral-convertor","timestamp":"2025-02-26 12:39:58"}
+{"level":"info","message":"Server is listening at: http://localhost:8080}/","service":"roman-numeral-convertor","timestamp":"2025-02-26 12:40:38"}
+{"level":"info","message":"Request received: 12","service":"roman-numeral-convertor","timestamp":"2025-02-26 12:40:56"}
+{"level":"info","message":"Request received: 1234","service":"roman-numeral-convertor","timestamp":"2025-02-26 12:41:40"}
+{"level":"info","message":"Request received: 2491","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:03:55"}
+{"level":"info","message":"Request received: 1","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:20:52"}
+{"level":"info","message":"Request received: 1","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:20:54"}
+{"level":"info","message":"Request received: 1","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:21:22"}
+{"level":"info","message":"Request received: 3090","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:21:27"}
+{"level":"info","message":"Request received: 3090","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:21:29"}
+{"level":"info","message":"Request received: 1","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:21:34"}
+{"level":"info","message":"Request received: 2","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:21:35"}
+{"level":"info","message":"Server is listening at: http://localhost:8080}/","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:23:23"}
+{"level":"info","message":"Request received: 1","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:23:28"}
+{"level":"info","message":"Server is listening at: http://localhost:8080}/","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:30:34"}
+{"level":"info","message":"Request received: /romannumeral?query=1","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:30:38"}
+{"level":"info","message":"Responded with {\"input\":\"1\",\"output\":\"I\"}","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:30:38"}
+{"level":"info","message":"Server is listening at: http://localhost:8080}/","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:48:10"}
+{"level":"info","message":"Request received: \"/romannumeral?query=1\"","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:48:14"}
+{"level":"info","message":"Responded with {\"input\":\"1\",\"output\":\"I\"}","service":"roman-numeral-convertor","timestamp":"2025-02-26 13:48:14"}
+{"level":"info","message":"Server is listening at: http://localhost:8080}/","service":"roman-numeral-convertor","timestamp":"2025-02-26 14:01:38"}
+{"level":"info","message":"Server is listening at: http://localhost:8080}/","service":"roman-numeral-convertor","timestamp":"2025-02-26 14:07:19"}
+{"level":"info","message":"Request received: \"/romannumeral?query=123\"","service":"roman-numeral-convertor","timestamp":"2025-02-26 14:12:09"}
+{"level":"info","message":"Responded with {\"input\":\"123\",\"output\":\"CXXIII\"}","service":"roman-numeral-convertor","timestamp":"2025-02-26 14:12:09"}
+{"level":"info","message":"Request received: \"/romannumeral?query=123\"","service":"roman-numeral-convertor","timestamp":"2025-02-26 14:12:17"}
+{"level":"info","message":"Responded with {\"input\":\"123\",\"output\":\"CXXIII\"}","service":"roman-numeral-convertor","timestamp":"2025-02-26 14:12:17"}
