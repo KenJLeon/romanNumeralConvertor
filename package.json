@@ -1,5 +1,5 @@
 {
-  "name": "romannumeralconvertor",
+  "name": "romannumeralconverter",
   "version": "1.0.0",
   "description": "",
   "dependencies": {
@@ -14,14 +14,6 @@
     "client": "cd client && npm run client-start",
     "server": "cd api && npm run server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KenJLeon/romanNumeralConvertor.git"
-  },
   "author": "Kenneth Liang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KenJLeon/romanNumeralConvertor/issues"
-  },
-  "homepage": "https://github.com/KenJLeon/romanNumeralConvertor#readme"
+  "license": "ISC"
 }

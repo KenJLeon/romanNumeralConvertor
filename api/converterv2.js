@@ -9,7 +9,7 @@ const singlesMap = new Map();
 
 const romanNumeralsMapList = [singlesMap, tensMap, hundredsMap, thousandsMap];
 
-export function romanNumeralConvertor(num) {
+export function romanNumeralConverter(num) {
     let current = num;
     let output = '';
     for (let i = 0; i < romanNumeralsMapList.length; i++) {

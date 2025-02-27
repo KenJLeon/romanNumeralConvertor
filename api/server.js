@@ -1,6 +1,6 @@
 import express from "express";
 import { createLogger, format, transports } from "winston";
-import { romanNumeralConvertor } from "./convertor.js";
+import { romanNumeralConverter } from "./converterv2.js";
 
 const app = express();
 
@@ -13,7 +13,7 @@ const logger = createLogger({
       format.errors({ stack: true }),
       format.splat(),
       format.json()),
-    defaultMeta: { service: 'roman-numeral-convertor' },
+    defaultMeta: { service: 'roman-numeral-converter' },
     transports: [
         new transports.Console(),
         new transports.File({ filename: 
@@ -46,7 +46,7 @@ app.get('/romannumeral', (req, res) => {
         res.status(400).json("Parameter 'query' must be a whole number between 1-3999");
         return;
     }
-    const responseObject = {input: param, output: romanNumeralConvertor(num)};
+    const responseObject = {input: param, output: romanNumeralConverter(num)};
     logger.info('Responded with %j', responseObject);
     res.json(responseObject);
 });
