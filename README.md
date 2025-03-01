@@ -13,11 +13,11 @@ The frontend displays the Roman numeral to the user in a clean and user-friendly
 - Docker and Docker compose installed. See [docker installation](https://docs.docker.com/engine/install/) and [docker compose installation](https://docs.docker.com/compose/install/)
 
 ## Start the Service
+### Docker
 Run the following command at the root directory
 ```bash
 docker compose up -d
 ```
-
 Once all the containers are up, go to [localhost:3000](http://localhost:3000/)
 
 ## Testing
