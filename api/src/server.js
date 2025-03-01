@@ -27,9 +27,7 @@ const logger = createLogger({
 app.set("port", process.env.PORT || 8080);
 
 app.get('/romannumeral', (req, res) => {
-    const url = req.originalUrl;
-    console.log(url);
-    const param = req.query.query
+    const param = req.query.query;
     if (!param) {
         logger.error("Missing required parameter 'query'");
         res.status(400).json("Missing required parameter 'query'");

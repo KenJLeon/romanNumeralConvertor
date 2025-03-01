@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { defaultTheme, Provider, Button, TextField, ButtonGroup, Form } from '@adobe/react-spectrum';
 import { getConverted } from './requests';
 
