@@ -2,7 +2,7 @@
   "name": "romannumeralconverter-client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8080",
+  "proxy": "http://api:8080",
   "dependencies": {
     "@adobe/react-spectrum": "^3.39.0",
     "@testing-library/dom": "^10.4.0",
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "miragejs": "^0.1.48"
   }
 }

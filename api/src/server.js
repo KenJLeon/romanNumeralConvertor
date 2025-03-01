@@ -51,6 +51,10 @@ app.get('/romannumeral', (req, res) => {
     res.json(responseObject);
 });
 
-app.listen(app.get("port"), () => {
-    logger.info('Server is listening at: http://localhost:%s}/', app.get("port"));
-});
+if (process.env.NODE_ENV !== 'test') {
+    app.listen(app.get("port"), () => {
+        logger.info('Server is listening at port:%s}/', app.get("port"));
+    });
+}
+
+export const server = app;

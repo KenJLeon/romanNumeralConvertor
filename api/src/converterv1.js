@@ -1,7 +1,7 @@
 const number = [1,5,10,50,100,500,1000];
 const romanNumerals = ['I','V','X','L','C','D','M'];
 
-function converter(num) {
+export function converter(num) {
     let current = num;
     let currentFloorIndex = 0;
     let currentMidIndex = 1;

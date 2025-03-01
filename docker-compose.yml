@@ -5,8 +5,8 @@ services:
     ports:
       - "8080:8080"
     volumes:
-     - ./api:/app/api
-     - ./api/node_modules:/app/api/node_modules
+     - ./api:/api
+     - ./api/node_modules:/api/node_modules
     networks:
       - romannumeralconverternetwork
     stdin_open: true
@@ -16,13 +16,13 @@ services:
   client:
     build: ./client
     environment:
-      - PROXY_URL=http://api:8080
+      - API_URL=http://api:8080
     container_name: client
     ports:
       - "3000:3000"
     volumes:
-     - ./client:/app/client
-     - ./client/node_modules:/app/client/node_modules
+     - ./client:/client
+     - ./client/node_modules:/client/node_modules
     networks:
       - romannumeralconverternetwork
     stdin_open: true
