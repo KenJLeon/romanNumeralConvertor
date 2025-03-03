@@ -6,7 +6,7 @@ services:
       - "8080:8080"
     volumes:
      - ./api:/api
-     - ./api/node_modules:/api/node_modules
+     - /api/node_modules
     networks:
       - romannumeralconverternetwork
     stdin_open: true
@@ -20,7 +20,7 @@ services:
       - "3000:3000"
     volumes:
      - ./client:/client
-     - ./client/node_modules:/client/node_modules
+     - /client/node_modules
     networks:
       - romannumeralconverternetwork
     stdin_open: true

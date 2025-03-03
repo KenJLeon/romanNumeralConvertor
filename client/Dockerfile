@@ -1,8 +1,9 @@
 FROM node:20-alpine
 WORKDIR /client
-COPY package*.json /client
+COPY package*.json .
 RUN npm i
-COPY . /client
+COPY . .
+EXPOSE 3000
 CMD ["npm", "run", "start"]
 
 

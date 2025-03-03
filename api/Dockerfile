@@ -1,8 +1,9 @@
 FROM node:20-alpine
 WORKDIR /api
-COPY package*.json /api
+COPY package*.json .
 RUN npm i
-COPY . /api
+COPY . .
+EXPOSE 8080
 CMD ["npm", "run", "server"]
 
 
